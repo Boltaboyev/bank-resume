@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Банк резюме</title>
+    <link rel="stylesheet" href="./src/output.css">
+
+    <link rel="shortcut icon" href="./assets/img/fav.png" type="image/x-icon">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+    <header class="py-[25px]">
+        <div class="container2 flex justify-between items-center">
+            <nav class="navbar-logo">
+                <a href="./index.html"><img src="/assets/img/logo.png" alt=""></a>
+            </nav>
+
+            <label for="nav" class="text-[20px] text-2 hidden max-[650px]:block">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+            <input type="checkbox" id="nav" hidden>
+            <nav
+                class="navbar-btn flex justify-center items-center gap-[20px] max-[650px]:z-[888] max-[650px]:px-[20px] max-[650px]:fixed max-[650px]:h-[100vh] max-[650px]:w-[50%] max-[650px]:bg-[#fff] max-[650px]:right-[-100%] max-[650px]:top-0 max-[650px]:flex-col max-[550px]:w-[70%] max-[350px]:w-[90%]">
+
+                <label for="nav"
+                    class="hidden max-[650px]:block absolute right-[10px] top-[10px] text-[2] text-[20px]"><i
+                        class="fa-solid fa-xmark"></i></label>
+
+                <a href="#!" class="btn hidden max-[650px]:block w-full">Вход для соискателя</a>
+
+                <a href="#!" class="btn max-[650px]:w-full"><span class="block max-[650px]:hidden">Вход</span> <span
+                        class="hidden max-[650px]:block">Вход для директора</span></a>
+
+
+                <a href="#!" class="btn btn_white max-[650px]:w-full">Регистрация</a>
+
+                <a href="#!"
+                    class="text-2 hover:text-1 self-start hidden max-[650px]:block max-[350px]:text-[14px]">Пользовательское
+                    соглашение</a>
+                <a href="#!"
+                    class="text-2 hover:text-1 self-start hidden max-[650px]:block max-[350px]:text-[14px]">Правовая
+                    информация</a>
+                <a href="#!"
+                    class="text-2 hover:text-1 self-start hidden max-[650px]:block max-[350px]:text-[14px]">Контакты</a>
+                <a href="#!"
+                    class="text-2 hover:text-1 self-start hidden max-[650px]:block max-[350px]:text-[14px]">Помощь
+                    (FAQ)</a>
+                <a href="#!"
+                    class="text-1 hover:text-2 self-start hidden max-[650px]:block max-[350px]:text-[14px]">Служба
+                    поддержки</a>
+
+            </nav>
+            <label for="nav"
+                class="blackLabel h-[100vh] hidden w-full bg-[#0000005d] z-[777] fixed top-0 left-0"></label>
+        </div>
+    </header>
+
+
+    <section class="showcase py-[55px]">
+        <div class="container2 flex justify-between items-center max-[780px]:flex-col max-[780px]:gap-[50px]">
+            <div
+                class="flex flex-col justify-between items-start gap-[20px] max-[780px]:items-center max-[780px]:text-center">
+                <h1
+                    class="font-[900] text-[50px] leading-[122%] uppercase text-2 max-[1088px]:text-[40px] max-[935px]:text-[30px] max-[400px]:text-[24px] max-[340px]:text-[20px]">
+                    команды мечты
+                    создаются здесь
+                </h1>
+
+                <p class="text-2 font-[400] text-[15px] leading-[140%]">помощник в поиске работы и сотрудников <br
+                        class="max-[420px]:hidden"> в
+                    сфере образования</p>
+                <a href="#!" class="btn max-[400px]:w-full">Начать</a>
+            </div>
+
+            <div class="flex justify-center items-center">
+                <img src="./assets/img/showcase.png" alt="" class="max-[780px]:w-[60%] max-[400px]:w-full">
+            </div>
+        </div>
+    </section>
+
+    <section class="card py-[20px]">
+        <div class="container2">
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <!-- 1 -->
+                    <div class="swiper-slide">
+                        <div
+                            class="flex flex-col justify-between items-center rounded-[16px] p-[50px] bg-[#f4f9fb] gap-[5px] max-[900px]:p-[20px]">
+                            <img src="./assets/img/card1.png" alt="" class="max-[1090px]:w-[80%] max-[780px]:w-[100px]">
+
+                            <h1 class="text-[50px] font-[900] text-2 max-[1090px]:text-[30px]">67</h1>
+
+                            <p class="text-center font-[600] text-[18px] text-[#515151] max-[1090px]:text-[15px]">
+                                предложений о
+                                <br class="max-[780px]:hidden"> работе
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="swiper-slide">
+                        <div
+                            class="flex flex-col justify-between items-center rounded-[16px] p-[50px] bg-[#f4f9fb] gap-[5px] max-[900px]:p-[20px]">
+                            <img src="./assets/img/card2.png" alt="" class="max-[1090px]:w-[80%] max-[780px]:w-[100px]">
+
+                            <h1 class="text-[50px] font-[900] text-2 max-[1090px]:text-[30px]">180</h1>
+
+                            <p class="text-center font-[600] text-[18px] text-[#515151] max-[1090px]:text-[15px]">
+                                размещенных
+                                <br class="max-[780px]:hidden"> резюме
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- 3 -->
+                    <div class="swiper-slide">
+                        <div
+                            class="flex flex-col justify-between items-center rounded-[16px] p-[50px] bg-[#f4f9fb] gap-[5px] max-[900px]:p-[20px]">
+                            <img src="./assets/img/card3.png" alt="" class="max-[1090px]:w-[80%] max-[780px]:w-[100px]">
+
+                            <h1 class="text-[50px] font-[900] text-2 max-[1090px]:text-[30px]">113</h1>
+
+                            <p class="text-center font-[600] text-[18px] text-[#515151] max-[1090px]:text-[15px]">
+                                приглашений на
+                                <br class="max-[780px]:hidden"> собеседование 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="person-cards py-[50px]">
+        <div class="container2">
+            <div
+                class="grid grid-cols-2 gap-[40px] max-[1145px]:grid-cols-1 max-[10145px]:gap-[60px] max-[565px]:gap-[20px]">
+
+                <!-- 1 -->
+                <div class="flex justify-between bg-[#f4f9fb] rounded-[16px] p-[35px] relative max-[450px]:p-[20px]">
+                    <div class="flex flex-col justify-between items-start gap-[15px] w-[70%] max-[565px]:w-full">
+                        <p class="text-2 font-[600]">Для работодателей</p>
+
+                        <p class="text-2 font-[400] text-[15px] max-[450px]:text-[14px] max-[340px]:text-justify">Доступ
+                            к банку резюме предоставляется администрациям
+                            школ города Москвы. Если вы являетесь
+                            директором московской школы, <span class="max-[450px]:hidden">вы можете войти в банк резюме,
+                                используя единую учетную
+                                запись ЕКИС.</span></p>
+
+                        <a href="#!" class="btn max-[450px]:w-full">Вход</a>
+                    </div>
+
+                    <img src="./assets/img/boy.png" alt="" class="absolute right-[10px] top-[-10px] max-[565px]:hidden">
+                </div>
+
+
+                <!-- 2 -->
+                <div class="flex justify-between bg-[#f4f9fb] rounded-[16px] p-[35px] relative max-[450px]:p-[20px]">
+                    <div class="flex flex-col justify-center items-start gap-[15px] w-[70%] max-[565px]:w-full">
+                        <p class="text-2 font-[600]">Для работодателей</p>
+
+                        <p class="text-2 font-[400] text-[15px] max-[450px]:text-[14px] max-[340px]:text-justify">
+                            Ваш помощник в поиске работы в московских школах.
+                            Бесплатная публикация резюме
+                        </p>
+
+                        <div class="flex justify-start items-center gap-[10px] max-[450px]:flex-col w-full">
+                            <a href="#!" class="btn btn_white max-[450px]:w-full">Зарегистрироваться</a>
+                            <a href="#!" class="btn max-[450px]:w-full">Вход</a>
+                        </div>
+                    </div>
+
+                    <img src="./assets/img/girl.png" alt=""
+                        class="absolute right-[10px] top-[-10px] max-[565px]:hidden">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="welcome py-[40px]">
+        <div class="container2">
+            <div class="flex justify-between items-center max-[900px]:flex-col-reverse max-[900px]:gap-[30px]">
+                <div class="flex flex-col justify-center items-start gap-[18px] w-[50%] max-[900px]:w-full">
+                    <div class="flex flex-col justify-center items-start bg-[#ff879f] p-[30px] rounded-[16px] w-full">
+                        <p
+                            class="h-[30px] w-[30px] rounded-[8px] bg-[#fff] p-[5px] flex justify-center mb-[50px] max-[425px]:mb-[30px] items-center text-[#ff879f] font-[600] text-[18px]">
+                            1</p>
+
+                        <h1 class="text-[24px] font-[900] uppercase text-[#fff] max-[425px]:text-[19px]">Запишитесь</h1>
+                        <p class="text-[15px] font-[400] text-[#fff]">на консультацию</p>
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="flex flex-col justify-center items-start bg-[#65b2d6] p-[30px] rounded-[16px] w-full">
+                        <p
+                            class="h-[30px] w-[30px] rounded-[8px] bg-[#fff] p-[5px] flex justify-center mb-[50px] max-[425px]:mb-[30px] items-center text-[#65b2d6] font-[600] text-[18px]">
+                            2</p>
+
+                        <h1 class="text-[24px] font-[900] uppercase text-[#fff] max-[425px]:text-[19px]">пройдите курс
+                        </h1>
+                        <p class="text-[15px] font-[400] text-[#fff]">в комфортном режиме</p>
+                    </div>
+
+                    <a href="#!" class="btn max-[900px]:block w-full hidden">Записаться</a>
+
+                </div>
+
+                <div class="flex flex-col justify-center items-start gap-[18px] max-[900px]:items-center">
+                    <h1 class="text-[30px] font-[900] uppercase text-2 max-[435px]:text-[24px]">welcome-курс</h1>
+
+                    <p class="max-[900px]:text-center">Запишитесь, чтобы пройти бесплатный <br
+                            class="max-[900px]:hidden"> welcome-курс.</p>
+                    <a href="#!" class="btn max-[900px]:hidden">Записаться</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="diagnostic py-[60px]">
+        <div class="container2 flex flex-col gap-[30px]">
+            <div
+                class="flex justify-between items-start max-[1050px]:flex-col max-[1050px]:items-center max-[1050px]:text-center">
+                <h1 class="text-[32px] font-[900] text-2 leading-[125%] uppercase max-[500px]:text-[22px]">пройдите <br
+                        class="max-[1050px]:hidden"> диагностику</h1>
+
+                <div
+                    class="w-[40%] flex flex-col justify-start items-start gap-[10px] max-[1050px]:w-[80%] max-[500px]:w-full max-[500px]:text-[14px]">
+                    <p>
+                        <span class="max-[500px]:hidden">Вы можете пройти профессиональную диагностику на нашем
+                            сайте и получить </span>результаты сразу после
+                        ее
+                        прохождения.
+                    </p>
+
+                    <a href="#!" class="btn max-[1050px]:hidden">Пройти диагностику</a>
+                </div>
+
+                <p class="max-[1050px]:hidden">В любое время <br> и бесплатно</p>
+            </div>
+
+            <div>
+                <div class="swiper mySwiper2">
+                    <div class="swiper-wrapper">
+
+                        <!-- 1 -->
+                        <div class="swiper-slide">
+                            <div
+                                class="flex flex-col justify-between items-center rounded-[16px] p-[50px] bg-[#f4f9fb] h-[320px] max-[925px]:h-[250px] max-[900px]:p-[20px]">
+                                <img src="./assets/img/1.png" alt=""
+                                    class="max-[1090px]:w-[80px] max-[1215px]:h-[80px] max-[1215px]:object-contain">
+
+                                <h1 class="text-[23px] font-[900] text-2 text-center">в любое <br> время
+                                </h1>
+
+                            </div>
+                        </div>
+
+                        <!-- 2 -->
+                        <div class="swiper-slide">
+                            <div
+                                class="flex flex-col justify-between items-center rounded-[16px] p-[50px] bg-[#f4f9fb] h-[320px] max-[925px]:h-[250px] max-[900px]:p-[20px]">
+                                <img src="./assets/img/2.png" alt=""
+                                    class="max-[1090px]:w-[80px] max-[1215px]:h-[80px] max-[1215px]:object-contain">
+
+                                <h1 class="text-[23px] font-[900] text-2 text-center">прямо <br> на сайте
+                                </h1>
+                            </div>
+                        </div>
+
+                        <!-- 3 -->
+                        <div class="swiper-slide">
+                            <div
+                                class="flex flex-col justify-between items-center rounded-[16px] p-[50px] bg-[#f4f9fb] h-[320px] max-[925px]:h-[250px] max-[900px]:p-[20px]">
+                                <img src="./assets/img/3.png" alt=""
+                                    class="max-[1090px]:w-[80px] max-[1215px]:h-[80px] max-[1215px]:object-contain">
+
+                                <h1 class="text-[23px] font-[900] text-2 text-center">быстро бесплатно</h1>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div
+                                class="flex flex-col justify-between items-center rounded-[16px] p-[50px] bg-[#f4f9fb] h-[320px] max-[925px]:h-[250px] max-[900px]:p-[20px]">
+                                <img src="./assets/img/4.png" alt=""
+                                    class="max-[1090px]:w-[80px] max-[1215px]:h-[80px] max-[1215px]:object-contain">
+
+                                <h1 class="text-[23px] font-[900] text-2 text-center">результаты <br> сразу же</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#!" class="btn hidden max-[1050px]:block ">Пройти диагностику</a>
+
+
+        </div>
+    </section>
+
+    <section class="anons py-[50px]">
+        <div class="container2">
+            <h1 class="text-[28px] text-2 font-[900] uppercase text-center mb-[40px]">Анонс мероприятий</h1>
+
+            <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+
+
+                <!-- Card 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden col-span-2 max-[760px]:col-span-1">
+                    <img class="w-full h-48 object-cover" src="./assets/img/grid1.png" alt="Card Image">
+                    <div class="p-4 bg-[#f4f9fb] h-full">
+                        <p class="text-sm">28.06.2023</p>
+                        <h2 class="text-lg font-semibold">Современная методология <span
+                                class="max-[760px]:hidden">разработки оказалась
+                                ошибочной </span></h2>
+                        <p class="text-sm mt-2">Частотность поисковых запросов оказалась ошибочной</p>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="./assets/img/grid2.png" alt="Card Image">
+                    <div class="p-4 bg-[#f4f9fb]">
+                        <p class="text-sm">28.06.2023</p>
+                        <h2 class="text-lg font-semibold">Современная методология <span
+                                class="max-[760px]:hidden">разработки оказалась
+                                ошибочной </span></h2>
+                        <p class="text-sm mt-2">Частотность поисковых запросов оказалась ошибочной</p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="./assets/img/grid3.png" alt="Card Image">
+                    <div class="p-4 bg-[#f4f9fb]">
+                        <p class="text-sm">28.06.2023</p>
+                        <h2 class="text-lg font-semibold">Современная методология <span
+                                class="max-[760px]:hidden">разработки оказалась
+                                ошибочной </span></h2>
+                        <p class="text-sm mt-2">Частотность поисковых запросов оказалась ошибочной</p>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="./assets/img/grid4.png" alt="Card Image">
+                    <div class="p-4 bg-[#f4f9fb]">
+                        <p class="text-sm">28.06.2023</p>
+                        <h2 class="text-lg font-semibold">Современная методология <span
+                                class="max-[760px]:hidden">разработки оказалась
+                                ошибочной </span></h2>
+                        <p class="text-sm mt-2">Частотность поисковых запросов оказалась ошибочной</p>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="./assets/img/grid5.png" alt="Card Image">
+                    <div class="p-4 bg-[#f4f9fb]">
+                        <p class="text-sm">28.06.2023</p>
+                        <h2 class="text-lg font-semibold">Современная методология <span
+                                class="max-[760px]:hidden">разработки оказалась
+                                ошибочной </span></h2>
+                        <p class="text-sm mt-2">Частотность поисковых запросов оказалась ошибочной</p>
+                    </div>
+                </div>
+                <!-- Add more cards as needed -->
+
+            </div>
+    </section>
+
+
+    <section class="consultant py-[60px]">
+        <div class="container2 flex flex-col gap-[40px]">
+            <div
+                class="flex justify-between items-center bg-[#f4f9fb] max-[495px]:bg-[#fff] max-[495px]:p-0 p-[30px] rounded-[16px] max-[965px]:items-center max-[965px]:justify-center max-[965px]:text-center">
+                <div class="flex flex-col justify-center items-start gap-[18px] max-[965px]:items-center">
+                    <h1 class="font-[900] text-[28px] leading-[125%] uppercase text-2 max-[495px]:text-[22px]">карьерная
+                        консультация</h1>
+
+                    <p class="max-[495px]:text-[14px]">Запишитесь, чтобы получить бесплатную <br
+                            class="max-[495px]:hidden"> карьерную консультацию.</p>
+
+                    <a href="#!" class="btn max-[965px]:w-full">Записаться</a>
+                </div>
+
+                <img src="./assets/img/consultation.png" alt="" class="max-[965px]:hidden">
+            </div>
+
+            <div class="grid grid-cols-3 gap-[40px] max-[1150px]:gap-[25px] max-[965px]:grid-cols-1">
+                <div
+                    class="flex flex-col justify-between items-start bg-[#ff879f] p-[30px] rounded-[16px] w-full max-[380px]:p-[20px]">
+                    <p
+                        class="h-[30px] w-[30px] rounded-[8px] bg-[#fff] p-[5px] flex justify-center mb-[50px] max-[425px]:mb-[30px] items-center text-[#ff879f] font-[600] text-[18px]">
+                        1</p>
+
+                    <h1
+                        class="text-[24px] font-[900] uppercase text-[#fff] max-[425px]:text-[19px] max-[1150px]:text-[20px] max-[380px]:text-[17px]">
+                        Запишитесь</h1>
+                    <p class="text-[15px] font-[400] text-[#fff]">на консультацию</p>
+                </div>
+
+                <!-- 2 -->
+                <div
+                    class="flex flex-col justify-between items-start bg-[#65b2d6] p-[30px] rounded-[16px] w-full max-[380px]:p-[20px]">
+                    <p
+                        class="h-[30px] w-[30px] rounded-[8px] bg-[#fff] p-[5px] flex justify-center mb-[50px] max-[425px]:mb-[30px] items-center text-[#65b2d6] font-[600] text-[18px]">
+                        2</p>
+
+                    <h1
+                        class="text-[24px] font-[900] uppercase text-[#fff] max-[425px]:text-[19px] max-[1150px]:text-[20px] max-[380px]:text-[17px]">
+                        пройдите курс
+                    </h1>
+                    <p class="text-[15px] font-[400] text-[#fff]">в комфортном режиме</p>
+                </div>
+
+                <!-- 3 -->
+                <div
+                    class="flex flex-col justify-between items-start bg-[#f0d075] p-[30px] rounded-[16px] w-full max-[380px]:p-[20px]">
+                    <p
+                        class="h-[30px] w-[30px] rounded-[8px] bg-[#fff] p-[5px] flex justify-center mb-[50px] max-[425px]:mb-[30px] items-center text-[#f0d075] font-[600] text-[18px]">
+                        3</p>
+
+                    <h1
+                        class="text-[24px] font-[900] uppercase text-[#fff] max-[425px]:text-[19px] max-[1150px]:text-[20px] max-[380px]:text-[17px]">
+                        результаты
+                    </h1>
+                    <p class="text-[15px] font-[400] text-[#fff]">получите на ваш e-mail</p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section class="faq py-[40px]">
+        <div class="container2 max-[440px]:w-full">
+
+            <div class="flex justify-between items-start gap-[40px] max-[1060px]:flex-col">
+                <div class="flex flex-col justify-between items-start gap-[16px] w-[45%] max-[1060px]:w-full">
+                    <h2 class="text-[25px] font-[900] uppercase text-2 max-[390px]:text-[14px]">Остались вопросы?</h2>
+
+                    <p class="text-2 text-[15px] font-[400] leading-[140%]">
+                        Ответы на часто задаваемые вопросы здесь. Специалисты службы поддержки Банка резюме
+                        <span class="max-[440px]:hidden">могут
+                            оказать вам помощь
+                            в заполнении резюме.
+                            Если у вас возникли сложности или вопросы, вы можете связаться с нами.</span>
+                    </p>
+
+                    <a href="#!" class="btn max-[1060px]:hidden">Обратная связь</a>
+                </div>
+
+                <!-- Right Section -->
+                <div class="w-[45%] max-[1060px]:w-full">
+
+                    <div class="border border-[#aadcf3] rounded-[16px] mb-4 overflow-hidden w-full">
+                        <div
+                            class="cursor-pointer select-none faq-toggle w-full text-left p-4 flex justify-between items-center focus:outline-none">
+                            <p class="font-medium max-[440px]:text-[13px] max-[390px]:text-[11px]">Как пользоваться <span class="max-[390px]:hidden">Банком </span> резюме?</p>
+                            <img src="./assets/svg/plus.svg" alt="">
+
+                        </div>
+                        <div class="faq-answer p-4 hidden bg-[#f4f9fb] max-[440px]:text-[13px]">
+                            Ответы на часто задаваемые вопросы здесь. Специалисты службы поддержки Банка резюме могут
+                            оказать вам
+                        </div>
+                    </div>
+
+                    <div class="border border-[#aadcf3] rounded-[16px] mb-4 overflow-hidden w-full">
+                        <div
+                            class="cursor-pointer select-none faq-toggle w-full text-left p-4 flex justify-between items-center focus:outline-none">
+                            <p class="font-medium max-[440px]:text-[13px] max-[390px]:text-[11px]">Как пользоваться <span class="max-[390px]:hidden">Банком </span> резюме?</p>
+                            <img src="./assets/svg/plus.svg" alt="">
+
+                        </div>
+                        <div class="faq-answer p-4 hidden bg-[#f4f9fb] max-[440px]:text-[13px]">
+                            Ответы на часто задаваемые вопросы здесь. Специалисты службы поддержки Банка резюме могут
+                            оказать вам
+                        </div>
+                    </div>
+
+                    <div class="border border-[#aadcf3] rounded-[16px] mb-4 overflow-hidden w-full">
+                        <div
+                            class="cursor-pointer select-none faq-toggle w-full text-left p-4 flex justify-between items-center focus:outline-none">
+                            <p class="font-medium max-[440px]:text-[13px] max-[390px]:text-[11px]">Как пользоваться <span class="max-[390px]:hidden">Банком </span> резюме?</p>
+                            <img src="./assets/svg/plus.svg" alt="">
+
+                        </div>
+                        <div class="faq-answer p-4 hidden bg-[#f4f9fb] max-[440px]:text-[13px]">
+                            Ответы на часто задаваемые вопросы здесь. Специалисты службы поддержки Банка резюме могут
+                            оказать вам
+                        </div>
+                    </div>
+
+                    <div class="border border-[#aadcf3] rounded-[16px] mb-4 overflow-hidden w-full">
+                        <div
+                            class="cursor-pointer select-none faq-toggle w-full text-left p-4 flex justify-between items-center focus:outline-none">
+                            <p class="font-medium max-[440px]:text-[13px] max-[390px]:text-[11px]">Как пользоваться <span class="max-[390px]:hidden">Банком </span> резюме?</p>
+                            <img src="./assets/svg/plus.svg" alt="">
+
+                        </div>
+                        <div class="faq-answer p-4 hidden bg-[#f4f9fb] max-[440px]:text-[13px]">
+                            Ответы на часто задаваемые вопросы здесь. Специалисты службы поддержки Банка резюме могут
+                            оказать вам
+                        </div>
+                    </div>
+
+                </div>
+
+                <a href="#!" class="btn hidden max-[1060px]:block w-full">Обратная связь</a>
+
+            </div>
+
+            <script>
+                document.querySelectorAll('.faq-toggle').forEach(button => {
+                    button.addEventListener('click', () => {
+                        const answer = button.nextElementSibling;
+                        answer.classList.toggle('hidden');
+                    });
+                });
+            </script>
+
+        </div>
+    </section>
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
